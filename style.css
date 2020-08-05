@@ -1,0 +1,276 @@
+/* font-family: 'Turret Road', cursive;
+   font-family: 'Orbitron', sans-serif;
+   font-family: 'Concert One', cursive; */
+
+   /* Site Navigation */
+   .sitenavigation {
+     background: black;
+       position: relative;
+       z-index: 2;
+       border: 5px solid yellow;
+   }
+   .sitenavigation h1 {
+     font-family: 'Orbitron', sans-serif;
+     font-size: 40px;
+     color: yellow;
+     display: inline-block;
+     float: left;
+     margin-top: 0px;
+     margin-left: 10px;
+    text-shadow: 2px 2px 5px cyan;
+       z-index: 2;
+   }
+   .sitenavigation a {
+     text-decoration: none;
+     color: yellow;
+       z-index: 2;
+   }
+   .sitenavigation p{
+     display: inline-block;
+     margin-left: 40px;
+     font-family: 'Concert One', cursive;
+       z-index: 2;
+   }
+   .sitenavigation a:hover {
+     color: cyan;
+    text-shadow: 2px 2px 5px yellow;
+       z-index: 2;
+   }
+   .sitenavigation a:active {
+     color: magenta;
+       z-index: 2;
+   }
+
+   /* --Home Page-- */
+body {
+  background: black;
+    position: relative;
+    z-index: 2;
+}
+
+   .container {
+     background: black;
+     border: solid 5px black;
+     height: 100em;
+       z-index: 1;
+   }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+    z-index: 1;
+}
+
+   .protag-vmale {
+     max-height: 60em;
+     float: left;
+     justify-content: left;
+     clear: left;
+       z-index: 1;
+       position: relative;
+   }
+article {
+    background: black;
+    color: yellow;
+    margin-left: 35em;
+    margin-right: 2em;
+    margin-top: 2em;
+    font-size: 30px;
+    border: 5px solid yellow;
+    box-shadow: 5px 5px 10px black;
+    position: relative;
+    z-index: 2;
+    text-align: justify;
+}
+.home-summary {
+    position: relative;
+    right: 40px;
+    padding-left: 50px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 5px cyan;
+}
+.twitter-widget {
+    position: absolute;
+    z-index: 3;
+    bottom: 100px;
+    
+}
+.news-article-home {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Concert One', cursive;
+    color: cyan;
+    text-shadow: 2px 2px 5px black;
+    border: 5px solid yellow;
+    box-shadow: 5px 5px 10px black;
+    background-image: url(media/hexbgr.jpg);
+    margin-left: 20em;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+.news-article-home a {
+    max-height: 5em;
+}
+.news-article-home img {
+    max-width: 10em;
+    border: 3px solid cyan;
+}
+
+/* Footer */
+footer {
+    background: black;
+    z-index: 2;
+    position: relative;
+    border: 5px solid yellow;
+}
+footer a {
+    text-decoration: none;
+    color: yellow;
+    display: inline-block;
+}
+footer a:hover {
+    color: cyan;
+}
+footer p {
+    display: inline-block;
+    padding-left: 25em;
+}
+
+/* --Story Page-- */
+.shortsum {
+    border: 5px solid yellow;
+    color: black;
+    text-shadow: 2px 2px 10px magenta;
+    text-align: center;
+    background-image: url("media/nightcitybgr.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Concert One', cursive;
+    font-size: 90px;
+}
+.story {
+    color: yellow;
+    background-image: url("media/hexbgr.jpg");
+    border: 5px solid yellow;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    margin: 2em;
+    box-shadow: 0px 0px 50px cyan;
+    padding: 2em;
+    text-align: justify;
+}
+
+/* --News Page -- */
+.article-box {
+    padding-bottom: 20px;
+}
+.article-box img {
+    border: 5px solid yellow;
+    position: relative;
+    width: 60em;
+    height: 30em;
+    margin-left: 25%;
+    box-shadow: 0px 0px 10px cyan;
+}
+.scene-system {
+    margin-right: 50em;
+}
+
+/* --Pre-Order Page -- */
+.release-date {
+    position: relative;
+    left: 15em;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 50px cyan;
+}
+.tier1 { /* Tier 1 Div */
+    border: 5px solid yellow;
+}
+.tier2 { /* Tier 2 Div */
+    border: 5px solid yellow;
+}
+.tier1img {
+    width: 60em;
+    border: 5px solid yellow;
+    box-shadow: 5px 5px 10px cyan;
+}
+.tier2img {
+    width: 60em;
+    border: 5px solid yellow;
+    box-shadow: 5px 5px 10px magenta;
+}
+.tier1, .tier2, p {
+    color: yellow;
+}
+.tier1 ul {
+    color: yellow;
+    position: absolute;
+    right: .5em;
+    top: 4em;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 10px cyan;
+    
+}
+.tier2 ul {
+    color: yellow;
+    position: absolute;
+    font-size: 25px;
+    right: 3em;
+    top: 38em;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 10px magenta;
+}
+.tier1 p { /* Standard Edition Text */
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 10px cyan;
+    padding-left: 20em;
+}
+.tier2 p { /* Collector's Edition Text */
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 10px magenta;
+    padding-left: 20em;
+}
+
+/* --Article Pages-- */
+.articleimg { 
+    border: 5px solid yellow;
+    position: relative;
+    margin-left: 19em;
+    margin-top: 2em;
+}
+.article-body {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    border: 5px solid yellow;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+    text-shadow: 0px 0px 10px cyan;
+    
+}
+.articleimg2 {
+    border: 5px solid yellow;
+    position: relative;
+    width: 70em;
+    margin-left: 9em;
+    margin-top: 2em;
+}
+/* --Media Query-- ~this shit broke af~ */
+
+/* Smart Phones */
+@media screen and (max-width: 420px) {
+    .protag-vmale {
+        display: none;
+    }
+}
